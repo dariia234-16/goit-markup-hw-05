@@ -85,6 +85,7 @@ img {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-container {
@@ -103,6 +104,7 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--OCEAN);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* rules for header-positioning */
 
@@ -192,6 +194,7 @@ img {
 .hero-image-button:hover,
 .hero-image-button:focus {
   background-color: var(--OCEAN);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* rules for hero section-positioning */
 
@@ -436,11 +439,15 @@ kk .section-three-header {
 .customer-list-link:hover {
   color: var(--OCEAN);
   border-color: var(--OCEAN);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-list-link:focus {
   color: var(--OCEAN);
   border-color: var(--OCEAN);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-icon {
@@ -451,6 +458,7 @@ kk .section-three-header {
 .customer-list-link:focus .customer-icon,
 .customer-list-link:active .customer-icon {
   fill: var(--OCEAN);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer section */
@@ -491,11 +499,13 @@ kk .section-three-header {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--OCEAN);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-media-link:hover,
 .footer-social-media-link:focus {
   background-color: var(--GREEN);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-icon {
@@ -557,6 +567,9 @@ kk .section-three-header {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*list of portfolio projects */
@@ -632,6 +645,7 @@ kk .section-three-header {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* portfolio animations and transitions*/
