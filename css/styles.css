@@ -735,4 +735,9 @@ kk .section-three-header {
 .modal-close-button:focus {
   background-color: var(--OCEAN);
   border: none;
+  fill: var(--WHITE);
+}
+
+.modal-window-button-vector {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
