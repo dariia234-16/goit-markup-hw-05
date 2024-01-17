@@ -102,6 +102,25 @@ img {
   background-color: var(--OCEAN);
   height: 4px;
   border-radius: 2px;
+  border-color: var(--OCEAN);
+  width: 100%;
+  display: block;
+}
+
+.portfolio-nav-link {
+  color: var(--OCEAN);
+}
+
+.portfolio-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: var(--OCEAN);
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+  display: block;
 }
 
 .address-container {
