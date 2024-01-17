@@ -85,12 +85,16 @@ img {
   position: relative;
 }
 
+.studio-nav-link {
+  color: var(--OCEAN);
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN);
 }
 
-.nav-link::after {
+.studio-nav-link::after {
   content: "";
   position: absolute;
   left: 0;
